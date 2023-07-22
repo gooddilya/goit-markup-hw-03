@@ -97,10 +97,10 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding: 24px 0 24px;
 }
 .header-link-menu {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-link-menu:hover,
@@ -114,13 +114,12 @@ img {
 }
 
 .header-address-list {
+  padding: 24px 0;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address-item {
-  gap: 40px;
 }
 
 .header-link-address {
@@ -400,6 +399,7 @@ img {
 .container-card-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 
   background: var(--white, #fff);
 }
