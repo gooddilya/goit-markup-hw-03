@@ -64,6 +64,9 @@ img {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
+.container-header{
+  display: flex;
+}
 .header-navigation {
   display: flex;
   align-items: center;
@@ -100,7 +103,6 @@ img {
 }
 .header-link-menu {
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .header-link-menu:hover,
@@ -111,10 +113,11 @@ img {
 .header-address {
   font-style: normal;
   margin-left: auto;
+  padding: 24px 0;
+
 }
 
 .header-address-list {
-  padding: 24px 0;
   display: flex;
   gap: 40px;
 }
