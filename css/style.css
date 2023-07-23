@@ -103,6 +103,7 @@ img {
 }
 .header-link-menu {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-link-menu:hover,
@@ -113,7 +114,6 @@ img {
 .header-address {
   font-style: normal;
   margin-left: auto;
-  padding: 24px 0;
 
 }
 
@@ -123,6 +123,7 @@ img {
 }
 
 .header-address-item {
+  padding: 24px 0;
 }
 
 .header-link-address {
