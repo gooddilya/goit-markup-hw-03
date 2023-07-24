@@ -64,6 +64,9 @@ img {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
+.container.header{
+  display: flex;
+}
 .header-navigation.list {
   display: flex;
   align-items: center;
@@ -121,7 +124,6 @@ img {
 
 .header-address-item {
   display: flex;
-  padding: 24px 0;
 }
 
 .header-link-address {
@@ -130,6 +132,7 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--slate);
+  padding: 24px 0;
 }
 
 .header-link-address:hover,
